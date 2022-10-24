@@ -11,11 +11,11 @@ const CartProduct = ({ currentProduct }) => {
 
     return (
         <>
-        <h3>{productData.title}</h3>
-        <p>{quantity} total</p>
-        <p>${(quantity * productData.price).toFixed(2)}</p>
-        <Button size='sm' onClick={() => cart.deleteFromCart(id)} >Remove</Button>
-        <hr></hr>
+            <h3>{productData.title}</h3>
+            <p>{quantity} total</p>
+            <p>${(quantity * productData.price).toFixed(2)}</p>
+            <Button size='sm' onClick={() => cart.deleteFromCart(id)} >Remove</Button>
+            <hr></hr>
         </>
     )
 }
