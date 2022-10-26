@@ -56,7 +56,6 @@ const NavbarComponent = () => {
                         :
                         <h1>There are no items in your cart!</h1>
                     }
-                    <h1>This is the modal body.</h1>
                 </Modal.Body>
             </Modal>
         </>
